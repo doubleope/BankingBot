@@ -14,7 +14,6 @@ def quey_llm():
     cl.user_session.set("agent_executer", agent_executer)
 
 
-# Use Chainlit for the interactive UI
 @cl.on_message
 async def handle_message(message: cl.Message):
     agent_executer = cl.user_session.get("agent_executer")
