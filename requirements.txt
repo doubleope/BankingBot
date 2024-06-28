@@ -4,4 +4,4 @@ langchain_experimental
 pandas
 tabulate
 fastapi
-streamlit
+chainlit
