@@ -7,6 +7,6 @@ Create an OpenAI key, then:
 `setx OPENAI_API_KEY “<yourkey>”`
 
 ### On Mac:
-`echo "export OPENAI_API_KEY='yourkey'" >> ~/.zshrc`
-`source ~/.zshrc`
+```echo "export OPENAI_API_KEY='yourkey'" >> ~/.zshrc
+source ~/.zshrc```
 
