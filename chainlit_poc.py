@@ -8,7 +8,7 @@ data_path = "data/cleaned_data.csv"
 
 
 @cl.on_chat_start
-def quey_llm():
+def query_llm():
     llm = OpenAI(temperature=0)
     agent_executer = create_csv_agent(llm, path=data_path, verbose=True, allow_dangerous_code=True)
     cl.user_session.set("agent_executer", agent_executer)
